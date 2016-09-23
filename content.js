@@ -14,7 +14,10 @@ for (var i = 0; i < elements.length; i++) {
               text.replace(/Kære netværk/gi, 'Hej, gør mig lige en gratis tjeneste.'),
               text.replace(/søger en praktikant/gi, 'søger en der vil arbejde 50 timer om ugen uden at få løn'),
               text.replace(/Try Premium for free/gi, 'We want to steal your money. FOR FREE!'),
-              text.replace(/Recommended for you/gi, "Here is an ad you don't care about")
+              text.replace(/Recommended for you/gi, "Here is an ad you don't care about"),
+							text.replace(/søger nye udfordringer/gi, "jeg kan ikke finde ud af noget som helst"),
+							text.replace(/likes this/gi, "accidently liked this"),
+							text.replace(/has a new job/gi, "is now a slave here")
             ];
 
             for (let i = 0; i < replacedText.length; i++) {
