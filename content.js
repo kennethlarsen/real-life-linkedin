@@ -17,7 +17,7 @@ for (var i = 0; i < elements.length; i++) {
               text.replace(/Recommended for you/gi, "Here is an ad you don't care about"),
 							text.replace(/søger nye udfordringer/gi, "jeg kan ikke finde ud af noget som helst"),
 						  text.replace(/likes this/gi, "accidently liked this"),
-							text.replace(/has a new job/gi, "is now a slave here"),
+							text.replace(/has a new job./gi, "is now a slave here:"),
               text.replace(/ninja/gi, "n00b"),
               text.replace(/guru/gi, "n00b"),
               text.replace(/konkrete værktøjer/gi, "værktøjer, jeg er for dum til at google mig til.")
